@@ -15,32 +15,26 @@ a{
     height: 84px;
     background-image: url("social-sprite.png");
     margin:5px;
+    background-position-y: 84px;
     transition: background-position 500ms;
+}
+a:hover{
+    background-position-y: 168px;
 }
 
 .facebook{
-    background-position: 924px 84px;
+    background-position-x: 924px;
 }
 .twitter{
-    background-position: 252px 84px;
+    background-position-x: 252px;
 }
 .youtube{
-    background-position: 84px 84px;
+    background-position-x: 84px;
 }
 .linkedin{
-    background-position: 588px 84px;
+    background-position-x: 588px;
     margin-right: 0;
 }
-.facebook:hover{
-    background-position: 924px 168px;
-}
-.twitter:hover{
-    background-position: 252px 168px;
-}
-.youtube:hover{
-    background-position: 84px 168px;
-}
-.linkedin:hover{
-    background-position: 588px 168px;
-}
+
+
 
