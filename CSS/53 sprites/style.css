@@ -6,9 +6,7 @@
 body{
     text-align: center;
 }
-.social{
-    display: inline-block;
-}
+
 a{
     display: inline-block;
     width:84px;
@@ -33,7 +31,6 @@ a:hover{
 }
 .linkedin{
     background-position-x: 588px;
-    margin-right: 0;
 }
 
 
