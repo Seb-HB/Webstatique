@@ -1,0 +1,25 @@
+body{ /*les div vont hériter de body*/
+    color: black;
+    background-color: lightgrey;
+}
+#conteneur p{
+    color: red;
+}
+#conteneur>p{
+    font-weight: bold;
+}
+#conteneur+p{ /*ne s'applique à personne*/
+    color: green;
+}
+h2+p{
+    text-transform: uppercase;
+}
+code~p{
+    color: pink; /*color ou background? enoncé flou */
+}
+body>div{
+    background-color: yellow;
+}
+h1+div{
+    border: 1rem green solid;
+}
