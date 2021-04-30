@@ -1,0 +1,23 @@
+a, a:visited{
+    color: pink;
+}
+a:hover{
+    font-size: 1.5rem;
+    color: yellow;
+}
+p:hover{/* commenter quoi? à part que c'est dégueulasse!*/
+    background-color: red;
+}
+p::first-letter{
+    font-size: 1.8rem;
+}
+::selection{
+   background-color: yellow;
+}
+h1::before{/* quelle image des deux finalement?*/
+    height: 16px;
+    width: 16px;
+    content: url("https://bitsofco.de/content/images/2017/03/icon_256.png");
+    display: inline-flex;
+    margin-right: 6px;
+}
