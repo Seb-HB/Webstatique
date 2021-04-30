@@ -3,9 +3,11 @@
     padding: 0;
 
 }
+body{
+    text-align: center;
+}
 .social{
-    margin: auto;
-    width: 390px;
+    display: inline-block;
 }
 a{
     display: inline-block;
