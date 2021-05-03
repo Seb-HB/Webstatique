@@ -2,16 +2,28 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 @import url("css/bg-color.css");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+}
 header{
-    background-image: url("\img\bg-header.jpg");
+    background-image: url("/img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0 20px 0;
 }
 
 a{
     text-decoration: none;
+    color: rgb(37, 37, 37);
 }
 ul{
     list-style: none;
+    padding-right: 40px;
 }
 
 ul a{
@@ -21,4 +33,69 @@ nav{
     background-color: white;
     display: inline-block;
     margin: auto;
+    border-radius: 5px;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Abel', sans-serif;
+}
+h1{
+    font-size: 48px;
+}
+
+
+#logo, #welcome, #competence, #ref{
+    text-align: center;
+}
+
+#logo img{
+    background-color: black;
+    border: 1Px solid white;
+    padding: 3px;
+}
+#welcome{
+    padding: 30px 0;
+}
+.lead{
+    font-size: 24px;
+}
+
+#competence .bg-light{
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+#competence .bg-light div{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+}
+
+#container > div{
+    display: inline-block;
+    width: 33%;
+}
+figure{
+    display: inline-block;
+}
+figure img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: lightgrey;
+}
+figcaption{
+    font-style: italic;
+    font-size: 10px;
+    width: 150px;
+}
+
+.btn{
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #7e98a7;
+    border-radius: 10px;
 }
