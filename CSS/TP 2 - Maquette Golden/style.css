@@ -247,7 +247,7 @@ h2+p{
 .Servico{
     width: 60px;
     height: 60px;
-    border-color: yellow;
+    border-color: var(--yellow);
 }
 .commerce{
     background-image: url("img/icons/icon-basket.png");
