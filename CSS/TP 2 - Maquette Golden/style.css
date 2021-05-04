@@ -216,3 +216,61 @@ h2+p{
     font-size: 48px;
     font-style: italic;
 }
+
+.ResoIco{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2Px solid;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: black;
+    margin: 0 5px;
+}
+
+.ResoWhite{
+    background-color: var("--blanc"); 
+}
+
+.ResoBlack{
+    background-color: black;
+}
+.fbwhite{
+    background-image: url("img/icons/facebook-black.png");
+}
+.fbblack{
+    background-image: url("img/icons/facebook.png");
+}
+.ttwhite{
+    background-image: url("img/icons/twitter-black.png");
+}
+.ttblack{
+    background-image: url("img/icons/twitter.png");
+}
+.pwhite{
+    background-image: url("img/icons/pinterest-black.png");
+}
+.pblack{
+    background-image: url("img/icons/pinterest.png");
+}
+.ggwhite{
+    background-image: url("img/icons/google+-black.png");
+}
+.ggblack{
+    background-image: url("img/icons/google+.png");
+}
+.Servico{
+    width: 60px;
+    height: 60px;
+    border-color: yellow;
+}
+.commerce{
+    background-image: url("img/icons/icon-basket.png");
+}
+.responsiveweb{
+    background-image: url("img/icons/icon-basket.png");
+}
+.security{
+    background-image: url("img/icons/icon-basket.png");
+}
