@@ -201,6 +201,12 @@ h2+p{
     font-style: italic;
 }
 
+
+
+/***********************************
+Gestion des icones de reseaux sociaux
+******************************************/
+
 .ResoIco{
     display: inline-block;
     width: 40px;
