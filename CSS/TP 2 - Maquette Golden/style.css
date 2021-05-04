@@ -30,7 +30,7 @@ body{
     font-family: var("--Montserrat");
 }
 header{
-    background-image: url("img/bg_header.png");
+    background-image: linear-gradient(to top, rgba(0,0,4,0.2), rgba(0,0,4,0.2)), url("img/bg_header.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--blanc);
@@ -51,7 +51,9 @@ a{
 header>div.flex{
     justify-content: space-between;
 }
-
+input[type="submit"]{
+    border: none;
+}
 input[type="text"]{
     height: 26%;
     padding: 5px 10px;
@@ -129,7 +131,7 @@ COLORS
 #services img{
     border-color: var(--yellow);
 }
-.btn:hover{
+.btn:hover, input[type="submit"]:hover{
     background-color: #FEDA5E;
 }
 footer .cercle{
