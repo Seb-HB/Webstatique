@@ -1,0 +1,22 @@
+form{
+
+    label{
+        display: none;
+    }
+
+}
+
+input[type="submit"]{
+    background-color: var(--form-deco);
+}
+
+input, textarea{
+    border: 1px solid var(--form-deco);
+    margin: 10px 5px;
+    &::placeholder{
+        color: var(--form-deco);
+        font-weight: bold;
+        font-family: var(--font-footer);
+    }
+}
+    

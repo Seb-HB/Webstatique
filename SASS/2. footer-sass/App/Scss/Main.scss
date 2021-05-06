@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import 'var';
+@import 'fonts';
+@import 'footer';
+@import 'components/forms';
+@import 'components/butons.scss'
+
+a{
+    display: inline-block;
+    color:inherit;
+    text-decoration: none;
+}
+
+address{
+    font-style: inherit;
+}
+
+.social{
+    div{
+        width: 20px;
+        height: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    :nth-child(1) div{
+        background-image: url("/Public/img/Facebook.png");
+    }
+    :nth-child(3) div{
+        background-image: url("/Public/img/Twitter.png");
+    }
+    :nth-child(5) div{
+        background-image: url("/Public/img/Behance.png");
+    }
+}
