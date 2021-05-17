@@ -1,0 +1,116 @@
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  color: #627188;
+  text-align: left;
+}
+
+header {
+  position: relative;
+  color: white;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+
+nav {
+  position: absolute;
+  top: 2rem;
+  left: 20%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.block-orange {
+  background-color: #F26522;
+  color: white;
+  padding: 10px;
+}
+
+.superposition {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  transform: translate(0, 50%);
+}
+.superposition .block-orange {
+  flex: 0 0 30%;
+}
+.superposition .flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.superposition div div {
+  flex: 0 0 50%;
+}
+
+#logo {
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  width: fit-content;
+}
+
+.bg-white {
+  background-color: white;
+  color: #627188;
+}
+
+.container-reduce {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+#presentation {
+  margin-top: 28rem;
+}
+
+#presentation div {
+  display: flex;
+  flex-wrap: wrap;
+}
+#presentation div p {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+#cta {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  max-width: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */

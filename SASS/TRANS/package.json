@@ -4,7 +4,8 @@
   "description": "intégration maquette trans",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tocss": "sass ./app/main.scss ./public/CSS/style.css --watch"
   },
   "author": "SF",
   "license": "ISC",
