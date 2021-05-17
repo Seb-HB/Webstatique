@@ -1,0 +1,14 @@
+{
+  "name": "trans",
+  "version": "1.0.0",
+  "description": "intégration maquette trans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SF",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.13"
+  }
+}
