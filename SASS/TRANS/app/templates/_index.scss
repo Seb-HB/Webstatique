@@ -95,3 +95,12 @@ li{
   top: 50%;
   max-width:300px;
 }
+
+#portrait{
+    position: relative;
+    div{
+        display: flex;
+        position: absolute;
+        bottom:0;
+    }
+}

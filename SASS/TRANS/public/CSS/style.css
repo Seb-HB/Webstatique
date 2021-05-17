@@ -94,7 +94,7 @@ li {
 }
 
 #presentation {
-  margin-top: 28rem;
+  margin-top: 60rem;
 }
 
 #presentation div {
@@ -111,6 +111,15 @@ li {
   left: 20%;
   top: 50%;
   max-width: 300px;
+}
+
+#portrait {
+  position: relative;
+}
+#portrait div {
+  display: flex;
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
