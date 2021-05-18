@@ -59,28 +59,33 @@ li {
 .superposition {
   position: absolute;
   display: flex;
-  width: 70%;
+  flex-flow: column wrap;
+  width: 60%;
+  height: 500Px;
   right: 0;
   bottom: 0;
-  right: 0;
   transform: translate(0, 50%);
 }
 .superposition .block-orange {
-  flex: 0 0 30%;
+  flex: 1 0 100%;
+  width: 30%;
 }
-.superposition .flex-col {
-  display: flex;
-  flex-direction: column;
-}
-.superposition div div {
+.superposition .right-col {
   flex: 0 0 50%;
+  width: 70%;
 }
 
 #logo {
   position: absolute;
-  right: 100px;
+  right: 10px;
   top: 10px;
-  width: fit-content;
+}
+
+.bg-img-soleil {
+  background-image: url("/public/img/header-couche-soleil.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-white {
@@ -94,7 +99,7 @@ li {
 }
 
 #presentation {
-  margin-top: 60rem;
+  margin-top: 28rem;
 }
 
 #presentation div {
